@@ -8,7 +8,7 @@
  * @format
  */
 
-import React from './src/pages/SignIn/node_modules/react';
+import React from 'react';
 import {
   SafeAreaView,
   StyleSheet,
@@ -16,7 +16,7 @@ import {
   View,
   Text,
   StatusBar,
-} from './src/pages/SignIn/node_modules/react-native';
+} from 'react-native';
 
 import {
   Header,

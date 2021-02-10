@@ -1,4 +1,4 @@
-import React from '../../pages/SignIn/node_modules/react';
+import React from 'react';
 import { RectButtonProperties } from 'react-native-gesture-handler';
 
 import { Container, ButtonText } from './styles';

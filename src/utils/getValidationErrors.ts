@@ -1,4 +1,4 @@
-import { ValidationError } from '../pages/SignIn/node_modules/yup';
+import { ValidationError } from 'yup';
 
 interface Errors {
   [key: string]: string;

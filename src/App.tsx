@@ -1,9 +1,9 @@
 import 'react-native-gesture-handler';
 
-import React from './pages/SignIn/node_modules/react';
-import { View, StatusBar } from './pages/SignIn/node_modules/react-native';
+import React from 'react';
+import { View, StatusBar } from 'react-native';
 
-import { NavigationContainer } from './pages/SignIn/node_modules/@react-navigation/native';
+import { NavigationContainer } from '@react-navigation/native';
 
 import AppProvider from './hooks';
 

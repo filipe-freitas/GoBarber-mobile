@@ -1,4 +1,4 @@
-import React from '../pages/SignIn/node_modules/react';
+import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 
 import SignIn from '../pages/SignIn';

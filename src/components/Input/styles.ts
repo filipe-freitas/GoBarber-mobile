@@ -1,5 +1,5 @@
-import styled, { css } from 'styled-components/native';
-import FeatherIcon from 'react-native-vector-icons/Feather';
+import styled, { css } from '../../pages/SignIn/node_modules/styled-components/native';
+import FeatherIcon from '../../pages/SignIn/node_modules/react-native-vector-icons/Feather';
 
 interface ContainerProps {
   isFocused: boolean;

@@ -1,5 +1,5 @@
-import React from 'react';
-import { ActivityIndicator, View } from 'react-native';
+import React from '../pages/SignIn/node_modules/react';
+import { ActivityIndicator, View } from '../pages/SignIn/node_modules/react-native';
 import AuthRoutes from './auth.routes';
 import AppRoutes from './app.routes';
 

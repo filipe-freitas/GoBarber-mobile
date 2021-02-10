@@ -1,7 +1,7 @@
-import React from 'react';
+import React from '../pages/SignIn/node_modules/react';
 import { createStackNavigator } from '@react-navigation/stack';
 
-import Dashboard from '../Pages/Dashboard';
+import Dashboard from '../pages/Dashboard';
 
 const App = createStackNavigator();
 

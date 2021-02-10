@@ -5,7 +5,7 @@ import React, {
   useState,
   useContext,
   useEffect,
-} from 'react';
+} from '../pages/SignIn/node_modules/react';
 import AsyncStorage from '@react-native-community/async-storage';
 import api from '../services/api';
 

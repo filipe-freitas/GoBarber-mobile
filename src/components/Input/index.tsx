@@ -5,10 +5,10 @@ import React, {
   forwardRef,
   useState,
   useCallback,
-} from 'react';
-import { TextInputProps } from 'react-native';
+} from '../../pages/SignIn/node_modules/react';
+import { TextInputProps } from '../../pages/SignIn/node_modules/react-native';
 
-import { useField } from '@unform/core';
+import { useField } from '../../pages/SignIn/node_modules/@unform/core';
 
 import { Container, TextInput, Icon } from './styles';
 

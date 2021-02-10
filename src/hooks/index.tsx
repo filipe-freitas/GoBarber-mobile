@@ -1,4 +1,4 @@
-import React from 'react';
+import React from '../pages/SignIn/node_modules/react';
 
 import { AuthProvider } from './Auth';
 

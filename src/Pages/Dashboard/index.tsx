@@ -34,7 +34,6 @@ const Dashboard: React.FC = () => {
   const { navigate } = useNavigation();
 
   const [providers, setProviders] = useState<Provider[]>([]);
-
   useEffect(() => {
     api.get('providers').then(response => {
       setProviders(response.data);
@@ -70,7 +69,7 @@ const Dashboard: React.FC = () => {
         data={providers}
         keyExtractor={provider => provider.id}
         ListHeaderComponent={
-          <ProvidersListTitle>Cabeleleila Leila</ProvidersListTitle>
+          <ProvidersListTitle>Cabelereiros</ProvidersListTitle>
         }
         renderItem={({ item: provider }) => (
           <ProviderContainer
